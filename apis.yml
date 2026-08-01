@@ -1,7 +1,27 @@
 aid: popcom
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/popcom.png
 name: PopCom
-description: PopCom is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  PopCom is an AI-powered automated retail technology company founded by e-commerce
+  entrepreneur Dawn Dickson. Its flagship product, the PopShop, is a robotic self-service
+  kiosk that dispenses physical and digital products while capturing customer data through
+  computer vision, facial recognition, and real-time analytics. The platform gives brands
+  and entrepreneurs the kind of sales metrics, inventory monitoring, targeted advertising,
+  and customer-sentiment insight that online retailers enjoy, but for physical, unattended
+  retail. PopCom sells its hardware on an annual lease with a monthly software subscription.
+  It was added to the API Evangelist network as a Techstars portfolio company; as of this
+  enrichment pass PopCom publishes no public developer platform, API, or specification.
 url: https://raw.githubusercontent.com/api-evangelist/popcom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Automated Retail
+- Vending
+- Kiosk
+- Retail Technology
+- Computer Vision
+- Analytics
+- Robotics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +49,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://popcom.shop/
+  url: https://www.popcom.ai/
+- type: Blog
+  url: https://www.popcom.ai/blog
+- type: Support
+  url: https://www.popcom.ai/contact
+- type: PrivacyPolicy
+  url: https://www.popcom.ai/privacy-policy
+- type: DomainSecurity
+  url: security/popcom-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
